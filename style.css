@@ -1,0 +1,264 @@
+*{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 41.6rem;
+  background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 36%); background-repeat: no-repeat; background-size: cover; height: 100%;
+}
+
+/* NavBar */
+.container-fluid{
+  position: relative;
+  border: black;
+  border-bottom-style: solid;
+  height: 6rem;
+  display: flex;
+  align-items: end;
+  justify-content:space-around;
+}
+
+.li {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img{
+  width:30rem;
+  z-index: 1;
+  position: relative;
+  top:10px;
+}
+
+a{
+  text-decoration:none;
+  justify-content: center;
+  color:black;
+
+}
+
+#charte{
+  color: blue;
+}  
+
+
+.form-control{
+    margin-top:1rem;
+    
+}
+
+.form-control-lg{
+  font-size: none !important;
+}
+
+
+/* #section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    height: 10rem; */
+
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25rem;
+    min-width: 40rem;
+}
+
+.carousel{
+    width: 50vw;
+    height: 25rem;
+    margin: 3rem 5rem 0 0;   
+}
+
+.carousel-item img {
+    width: 50vw;
+    height: 25rem;
+    object-fit:cover;
+}
+
+figcaption a{
+    color: white;
+}
+
+figcaption{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour le texte */
+    color: white;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.welcome{
+  margin: 3px;
+}
+
+#sing-select {
+    max-width: 20rem;
+}
+
+#deja{
+
+    color: black;
+
+}
+.form-check-input{
+  background-color: #4e1f1f8c !important;
+}
+
+#okok {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+
+#cardconec{
+  max-width: 45rem;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+#footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.carousel_text{
+  display: flex;
+  align-items: center;
+
+}
+
+#ui{
+  display: flex;
+  align-items: center;
+}
+
+.progress{
+  width: 100% !important;
+  justify-content: center;
+}
+
+.pdf{
+  color: blue !important;
+}
+
+#yt{
+  cursor: default;
+}
+
+
+@media screen and (max-width: 1059px){
+  
+  .img{
+    width: 100%;
+  }
+
+  #nav{
+    font-size:small ;
+  }
+
+  #yt{
+    font-size: small;
+  }
+
+  figcaption{
+    font-size: small;
+  }
+
+  #ok{
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #card{
+    min-width: 25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #long{
+    width: 100%;
+  }
+  #yt{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 740px){
+  
+  #nav{
+    font-size: x-small;
+  }
+  
+}
+
+@media screen and (max-width: 675px){
+  #okokok{
+    display: flex;
+  }
+  .carousel_text{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 538px){
+  #cardconec{
+    font-size: smaller !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+
+
+@media screen and (max-width: 470px) {
+  #logo.container-fluid {
+    display: flex;
+  }
+  .container-fluid{
+    display: flex;
+    flex-direction: column;
+  }  
+  
+  .li{
+    width: 100%;
+  }
+  
+  #okokok{
+    width: 100%;
+  }
+
+  #ui{
+    width: 100%;
+  }
+  #cardconec{
+    font-size: xx-small !important;
+  }
+}
+
+
+
+
+
+
+
+
+
